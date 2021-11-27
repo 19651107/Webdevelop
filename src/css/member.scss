@@ -1,0 +1,54 @@
+.member{
+  padding-top: 123px;
+  &__btn{
+    border: none;
+    background-color: transparent;
+    transform: translateX(800%);
+    padding-bottom: 124px;
+    cursor: pointer;
+    &-info{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__title{
+    font-size: 30px;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  &__subtitle{
+    font-size: 15px;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 126px;
+  }
+  &__column{
+    &-img{
+      border-radius: 10px;
+    }
+    &-title{
+      font-size: 20px;
+      text-align: center;
+      padding-top: 39px;
+    }
+    &-subtitle{
+      font-size: 15px;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 41px;
+    }
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+    column-gap: 36px;
+    justify-content: center;
+    color: #00897B;
+    padding-bottom: 137px;
+    cursor: pointer;
+    &__list{
+
+    }
+  }
+}

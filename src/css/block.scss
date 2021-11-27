@@ -1,0 +1,35 @@
+.block{
+  padding-top: 126px;
+  &__title{
+    font-size: 30px;
+    color: #212121;
+    text-align: center;
+  }
+  &__subtitle{
+    padding-top: 36px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 124px;
+  }
+  &__card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 147px;
+    transform: translateX(10%);
+    &-vg{
+      margin-bottom: 39px;
+      transition: .3s;
+      &:hover{
+        transition: .3s;
+        transform: scale(1.2);
+      }
+    }
+    &-title{
+      margin-bottom: 26px;
+    }
+    &-subtitle{
+      padding-bottom: 124px;
+    }
+  }
+}

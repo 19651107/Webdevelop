@@ -1,0 +1,32 @@
+.btn{
+  font-size: 20px;
+  color: #fff;
+  width: 221px;
+  height: 71px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #00897B;
+  &_green{
+    transition: .3s;
+  &:hover{
+    transition: .3s;
+    transform: scale(1.1);
+    background-color: white;
+    color: #00897B;
+    border: 4px solid #00897B;
+  }
+  }
+
+  &_white{
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      transform: scale(1.1);
+      font-style: italic;
+      background-color: #00897B;
+    }
+  }
+}

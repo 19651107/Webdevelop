@@ -1,0 +1,28 @@
+@import "../libs/fontello/css/fontello.css";
+@import "../fonts/abode/stylesheet.css";
+@import "../libs/wow/animate.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Adobe Text Pro", sans-serif;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+@import "btn";
+@import "column";
+@import "header";
+@import "choose";
+@import "block";
+@import "services";
+@import "works";
+@import "pricing";
+@import "member";
+@import "blog";
+@import "contact";
+@import "form";
+@import "footer";
+@import "overlay";

@@ -1,0 +1,18 @@
+.btn {
+  font-size: 20px;
+  color: #fff;
+  width: 221px;
+  height: 71px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn_white {
+  background-color: transparent;
+  border: 2px solid white;
+}
+.btn_green {
+  background-color: #00897B;
+}
+
+/*# sourceMappingURL=btn.css.map */

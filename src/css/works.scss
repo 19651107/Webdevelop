@@ -1,0 +1,106 @@
+.works{
+  padding: 129px 0 160px;
+  &__title{
+    font-size: 30px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 36px;
+  }
+  &__subtitle{
+    color: #212121;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 111px;
+  }
+  &__menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 15px;
+    margin-bottom: 118px;
+  }
+  &__list{
+    height: 56px;
+    padding: 0 33px;
+    border: 2px solid #00897B;
+    background-color: transparent;
+    line-height: 56px;
+    color: #212121;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover{
+      background-color: #00897B;
+      color: #fff;
+      transition: .5s;
+    }
+  }
+  &__column{
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    &-text{
+    display: none;
+      color: white;
+      &-title{
+        font-size: 20px;
+      }
+      &-subtitle{
+        font-size: 15px;
+      }
+    }
+    &:hover::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: #00000080;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      transition: .3s;
+    }
+    &:hover .works__column-text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 20;
+    }
+    &-img{
+      height: 371px;
+      position: relative;
+      transform: translateX(-25%);
+      &_first{
+        transform: translateX(0);
+        left: -7px;
+      }
+      &_40{
+        transform: translateX(-14%);
+      }
+    }
+  }
+  &__btn{
+    width: 221px;
+    height: 71px;
+    color: white;
+    background-color: #00897B;
+    font-size: 20px;
+    border: none;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      background-color: transparent;
+      color: #212121;
+      border: 3px solid #212121;
+      font-style: italic;
+      transform: scale(1.1);
+    }
+  }
+}

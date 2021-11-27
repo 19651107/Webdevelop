@@ -1,0 +1,28 @@
+.serv {
+  padding: 174px 0 126px;
+  background-color: #E4FDF9;
+}
+.serv__title {
+  font-size: 30px;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.serv__subtitle {
+  font-size: 15px;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 111px;
+}
+.serv__column {
+  padding: 59px 49px 48px 51px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serv-phone {
+  margin-bottom: 38px;
+}
+
+/*# sourceMappingURL=services.css.map */

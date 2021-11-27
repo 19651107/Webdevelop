@@ -1,0 +1,29 @@
+.header {
+  padding: 50px 0;
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  column-gap: 28px;
+}
+.header__logo {
+  color: #212121;
+}
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  column-gap: 50px;
+}
+.header__list {
+  font-size: 20px;
+}
+.header__link {
+  color: #212121;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */
